@@ -1,0 +1,12 @@
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\Ad.Dal.dll.config
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\Ad.Dal.dll
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\Ad.Dal.pdb
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\Ad.Common.dll
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\EntityFramework.dll
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\EntityFramework.SqlServer.dll
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\Ad.Common.pdb
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\EntityFramework.xml
+E:\MiscProjects\More\Project\Ad.Dal\bin\Release\EntityFramework.SqlServer.xml
+E:\MiscProjects\More\Project\Ad.Dal\obj\Release\Ad.Dal.csprojResolveAssemblyReference.cache
+E:\MiscProjects\More\Project\Ad.Dal\obj\Release\Ad.Dal.dll
+E:\MiscProjects\More\Project\Ad.Dal\obj\Release\Ad.Dal.pdb

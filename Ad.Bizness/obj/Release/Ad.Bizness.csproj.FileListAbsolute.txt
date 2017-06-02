@@ -1,0 +1,14 @@
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\Ad.Bizness.dll.config
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\Ad.Bizness.dll
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\Ad.Bizness.pdb
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\Ad.Common.dll
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\Ad.Dal.dll
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\EntityFramework.dll
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\EntityFramework.SqlServer.dll
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\Ad.Common.pdb
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\Ad.Dal.pdb
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\EntityFramework.xml
+E:\MiscProjects\More\Project\Ad.Bizness\bin\Release\EntityFramework.SqlServer.xml
+E:\MiscProjects\More\Project\Ad.Bizness\obj\Release\Ad.Bizness.csprojResolveAssemblyReference.cache
+E:\MiscProjects\More\Project\Ad.Bizness\obj\Release\Ad.Bizness.dll
+E:\MiscProjects\More\Project\Ad.Bizness\obj\Release\Ad.Bizness.pdb
