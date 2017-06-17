@@ -7,11 +7,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Caching;
 
 namespace Ad.Bizness.Implementations.Services
 {
     public class ProductTemplate : IProductService
     {
+        MemoryCache memCache = MemoryCache.Default;
+
         public ProductMappings GetSearchOptions
         {
             get
@@ -71,6 +74,8 @@ namespace Ad.Bizness.Implementations.Services
 
     public class ProductImpl : IProductService
     {
+        MemoryCache memCache = MemoryCache.Default;
+
         public ProductMappings GetSearchOptions
         {
             get
@@ -395,6 +400,12 @@ namespace Ad.Bizness.Implementations.Services
         public List<SearchProduct> GetSearchProducts()
         {
             List<SearchProduct> searchProducts = new List<SearchProduct>();
+            if (memCache.Contains("searchProducts"))
+            {
+                searchProducts = (List<SearchProduct>)memCache.Get("searchProducts");
+                return searchProducts;
+            }
+
             using (ApplicationDbContext dbContext = new ApplicationDbContext())
             {
                 var productMappings = (from c in dbContext.tblProductMappings
@@ -412,7 +423,7 @@ namespace Ad.Bizness.Implementations.Services
                     });
                 }
             }
-            
+            memCache.Add("searchProducts", searchProducts, DateTimeOffset.UtcNow.AddMinutes(-1));
 
             return searchProducts;
         }

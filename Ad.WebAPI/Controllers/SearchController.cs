@@ -68,20 +68,10 @@ namespace Ad.WebAPI.Controllers
         /// 
         /// </summary>
         /// <returns></returns>
+        [NonAction]
         private List<SearchProduct> GetAllProducts()
         {
-            List<SearchProduct> searchItems;
-            if (!memCache.Contains("searchProducts"))
-            {
-                searchItems = pc.GetSearchProducts();
-                memCache.Add("searchProducts", searchItems, DateTimeOffset.UtcNow.AddMinutes(-1));
-
-            }
-            else
-            {
-                searchItems = (List<SearchProduct>)memCache.Get("searchProducts");
-            }
-
+            List<SearchProduct> searchItems = pc.GetSearchProducts();
             return searchItems;
         }
 
