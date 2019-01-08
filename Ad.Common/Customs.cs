@@ -15,5 +15,6 @@ namespace Ad.Common
     public static class Util
     {
         public const string DefaultUser = "SYSTEM";
+
     }
 }
