@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Ad.Bizness/bin/Debug
+/.vs/Ad/v15
+/Ad.Bizness/obj/Debug
+/Ad.Common/obj/Debug
+/Ad.Dal
+/Ad.WebAPI
+/daltest/obj/Debug
+/Ad.BiznessUnitTest
